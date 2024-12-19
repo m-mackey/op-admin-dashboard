@@ -1,2 +1,2 @@
-# op-admin-dashboard
-Odin Project - Admin Dashboard
+# Odin Project - Admin Dashboard
+Admin dashboard created with vanilla CSS. 
