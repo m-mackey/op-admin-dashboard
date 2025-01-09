@@ -20,11 +20,11 @@ nav {
 }
 
 header {
-    background-color: blueviolet;
+    background-color: white;
     grid-area: header;
 }
 
 main {
-    background-color: brown;
+    background-color: #e2e8f0; /*also color for search bar*/
     grid-area: main;
 }
