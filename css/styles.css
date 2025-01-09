@@ -1,6 +1,7 @@
 body {
     display: grid;
     grid-template-rows: 1fr 5fr;
+    grid-template-columns: 1fr 4fr;
     grid-template-areas: 
     "nav header header header"
     "nav main main main";
