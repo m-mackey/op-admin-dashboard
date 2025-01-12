@@ -39,6 +39,7 @@ main {
     "projects projects announcements"
     "projects projects trending";
     grid-template-columns: repeat(2, 2fr) 1fr;
+    grid-template-rows: repeat(2, 1fr);
 }
 
 .projects{
