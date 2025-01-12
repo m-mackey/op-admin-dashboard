@@ -34,4 +34,24 @@ header {
 main {
     background-color: #e2e8f0; /*also color for search bar*/
     grid-area: main;
+    display: grid;
+    grid-template-areas: 
+    "projects projects announcements"
+    "projects projects trending";
+    grid-template-columns: repeat(2, 2fr) 1fr;
+}
+
+.projects{
+    grid-area: projects;
+    background-color: pink;
+}
+
+.announcements{
+    grid-area: announcements;
+    background-color: orange;
+}
+
+.trending{
+    grid-area: trending;
+    background-color: green;
 }
