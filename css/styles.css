@@ -54,6 +54,13 @@ main {
 .projects{
     grid-area: projects;
     background-color: pink;
+    display: grid;
+    grid-template-rows: 10% 90%;
+}
+
+.projects>ul{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 50%));
 }
 
 .announcements{
