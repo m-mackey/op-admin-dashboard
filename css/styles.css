@@ -53,7 +53,6 @@ main {
 
 .projects{
     grid-area: projects;
-    background-color: pink;
     display: grid;
     grid-template-rows: 10% 90%;
 }
@@ -66,10 +65,8 @@ main {
 
 .announcements{
     grid-area: announcements;
-    background-color: orange;
 }
 
 .trending{
     grid-area: trending;
-    background-color: green;
 }
