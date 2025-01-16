@@ -70,3 +70,7 @@ main {
 .trending{
     grid-area: trending;
 }
+
+.card, .announcements>ul, .trending>ul{
+    background-color: white;
+}
