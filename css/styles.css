@@ -63,7 +63,7 @@ main {
 }
 
 .projects>ul{
-    flex-basis: 90%;
+    flex: 1;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 50%));
     padding-left: 0;
