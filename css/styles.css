@@ -50,6 +50,7 @@ main {
     grid-template-columns: minmax(200px, 2fr) 1fr;
     grid-template-rows: repeat(2, 1fr);
     gap: 1rem;
+    padding: 1rem 0 1rem 0;
 }
 
 .projects{
