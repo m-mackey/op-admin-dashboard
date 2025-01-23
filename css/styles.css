@@ -45,9 +45,9 @@ main {
     grid-area: main;
     display: grid;
     grid-template-areas: 
-    "projects projects announcements"
-    "projects projects trending";
-    grid-template-columns: minmax(200px, 2fr) 1fr;
+    "projects announcements"
+    "projects trending";
+    grid-template-columns: minmax(200px, 3fr) 1fr;
     grid-template-rows: repeat(2, 1fr);
     gap: 1rem;
     padding: 1rem 0 1rem 0;
