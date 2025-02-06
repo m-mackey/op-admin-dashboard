@@ -68,8 +68,17 @@ main {
     padding-left: 0;
 }
 
-li{
+li{ /*might want to change this to be specific to a section*/
     margin: 0 1rem 1rem 0;
+}
+
+button {
+    background-color: var(--accent-color);
+    color: white;
+    border-radius: 15px;
+    padding: 0.25rem;
+    width: 5rem;
+    border: none;
 }
 
 .card{
