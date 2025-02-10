@@ -68,7 +68,7 @@ main {
     padding-left: 0;
 }
 
-li{ /*might want to change this to be specific to a section*/
+.projects>ul>li{ 
     margin: 0 1rem 1rem 0;
 }
 
