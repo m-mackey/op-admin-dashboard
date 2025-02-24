@@ -45,6 +45,13 @@ header {
     grid-template-rows: repeat(2, 1fr);
 }
 
+.username{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: end;
+}
+
 .btn-group>ul{
     display: flex;
     flex-direction: row ;
@@ -145,7 +152,7 @@ h1{
     padding: 1rem;
 }
 
-.nav-img, .card-icons{
+.nav-img, .card-icons, .header-icons{
     height: 1.5rem;
 }
 
