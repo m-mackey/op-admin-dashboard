@@ -53,6 +53,26 @@ header {
     justify-content: end;
 }
 
+.greeting{
+    display: grid;
+    grid-template-columns: max-content;
+    grid-template-areas: 
+    "img msg"
+    "img un";
+    gap: 1rem;
+}
+
+.greeting img{
+    grid-area: img;
+}
+
+.greeting p:first-of-type{
+    grid-area: msg;
+}
+.greeting p:last-of-type{
+    grid-area: un;
+}
+
 .btn-group>ul{
     display: flex;
     flex-direction: row ;
