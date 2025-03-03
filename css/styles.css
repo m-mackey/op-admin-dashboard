@@ -74,6 +74,10 @@ header {
     grid-area: un;
 }
 
+.btn-group{
+    display: flex;
+    align-items: center;
+}
 .btn-group>ul{
     display: flex;
     flex-direction: row ;
