@@ -44,6 +44,7 @@ header {
     grid-template-columns: 3fr 1fr;
     grid-template-rows: repeat(2, 1fr);
     padding: 1rem;
+    gap: 1rem;
 }
 
 .username{
@@ -59,7 +60,7 @@ header {
     grid-template-areas: 
     "img msg"
     "img un";
-    gap: 1rem;
+    gap: 0 1rem;
 }
 
 .greeting img{
