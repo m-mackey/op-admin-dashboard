@@ -47,6 +47,17 @@ header {
     gap: 1rem;
 }
 
+.search{
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+}
+
+.search input{
+    flex: 1;
+    height: 2rem;
+}
+
 .username{
     display: flex;
     gap: 1rem;
