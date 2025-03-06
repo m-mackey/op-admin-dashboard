@@ -100,6 +100,10 @@ header {
     gap: 1rem;
 }
 
+nav, header div:not(.search){
+    font-weight: bold;
+}
+
 main {
     background-color: #e2e8f0; /*also color for search bar*/
     grid-area: main;
