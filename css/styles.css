@@ -170,6 +170,33 @@ button {
 
 .trending{
     grid-area: trending;
+    margin: 0 1rem 1rem 0;
+    align-self: end;
+}
+
+.trending ul li{
+    display: grid;
+    grid-template-columns: max-content 2fr;
+    grid-template-areas: 
+    "av h3"
+    "av p";
+    gap: 0 1rem;
+}
+
+.trending ul li:not(:last-child){
+    margin: 0 0 1rem 0;
+}
+
+.trending ul li img{
+    grid-area: av;
+}
+
+.trending ul li h3{
+    grid-area: h3;
+}
+
+.trending ul li p{
+    grid-area: p;
 }
 
 .announcements, .trending{
