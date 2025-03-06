@@ -164,8 +164,17 @@ button {
     grid-area: announcements;
 }
 
+/* dividing line between announcements */
 .announcements li:not(:last-child){
     border-bottom: 1px solid rgba(128, 128, 128, 0.719);
+}
+
+/* special padding on announcement section */
+.announcements li:not(:first-child){
+    padding-top: 0.5rem;
+}
+.announcements li:not(:last-child){
+    padding-bottom: 0.5rem;
 }
 
 .trending{
