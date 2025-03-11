@@ -1,18 +1,17 @@
+@font-face {
+    font-family: 'robotoregular';
+    src: 
+         url('../fonts/Roboto-Regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 :root{
     --accent-color: #3343D5;
     --secondary-text-color: #2e2d2d;
     /*#1992d4 is mockup color but doesn't pass all color contrast checks
     use for nav bg and button color*/
-}
-
-@font-face {
-    font-family: 'robotoregular';
-    src: 
-         url('Roboto-Regular-webfont.woff2') format('woff2'),
-         url('fonts/Roboto-Regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
 }
 
 *{
