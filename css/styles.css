@@ -4,8 +4,19 @@
     use for nav bg and button color*/
 }
 
+@font-face {
+    font-family: 'robotoregular';
+    src: 
+         url('Roboto-Regular-webfont.woff2') format('woff2'),
+         url('fonts/Roboto-Regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 *{
     list-style-type: none;
+    font-family: 'robotoregular', sans-serif;
 }
 
 body {
